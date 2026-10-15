@@ -1,0 +1,44 @@
+
+{
+  "market_id": "pakistan",
+  "country_name": "Pakistan",
+  "status": "draft",
+  "languages": ["ur", "en"],
+  "text_direction": "mixed",
+  "formatting": {
+    "ur": {
+      "direction": "rtl",
+      "script": "Arabic-derived Nastaliq",
+      "review_required": true
+    },
+    "en": {
+      "direction": "ltr",
+      "review_required": true
+    },
+    "mixed_text": {
+      "use_unicode_bidirectional_layout": true,
+      "review_required": true
+    }
+  },
+  "brand_rules": [],
+  "cultural_guidance": [],
+  "advertising_rules": [],
+  "sources": [
+    {
+      "title": "Unicode Bidirectional Text FAQ",
+      "url": "https://www.unicode.org/faq/bidi.html",
+      "scope": "Technical guidance for mixed right-to-left and left-to-right text"
+    },
+    {
+      "title": "Unicode Standard Annex #9",
+      "url": "https://www.unicode.org/reports/tr9/",
+      "scope": "Bidirectional text layout algorithm"
+    },
+    {
+      "title": "Pakistan Press Information Department: Government Media Advertising Guidelines",
+      "url": "https://pid.gov.pk/site/press_detail/18053",
+      "scope": "Government advertising policy; not a complete commercial advertising compliance guide"
+    }
+  ],
+  "human_review_required": true
+}

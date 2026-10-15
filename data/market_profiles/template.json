@@ -1,0 +1,13 @@
+{
+  "market_id": "replace_with_market_id",
+  "country_name": "Replace with country name",
+  "status": "draft",
+  "languages": [],
+  "text_direction": "unknown",
+  "formatting": {},
+  "brand_rules": [],
+  "cultural_guidance": [],
+  "advertising_rules": [],
+  "sources": [],
+  "human_review_required": true
+}

@@ -1,0 +1,12 @@
+{
+  "project": "Nora",
+  "model_family": "FLUX.1 Fill [dev]",
+  "purpose": "Image localization and masked image editing",
+  "inference_machine": "Separate NVIDIA GPU computer",
+  "models": {
+    "diffusion_model": "models/flux-fill/diffusion_models/flux1-fill-dev.safetensors",
+    "clip_l": "models/flux-fill/text_encoders/clip_l.safetensors",
+    "t5xxl": "models/flux-fill/text_encoders/t5xxl_fp16.safetensors",
+    "vae": "models/flux-fill/vae/ae.safetensors"
+  }
+}
